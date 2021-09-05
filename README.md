@@ -1,3 +1,15 @@
+# LAN-VPN-WEB
+## Description
+### this repository contains , different python3 scripts , which can be used to do various attacks within the subnet or on a real world web server. do not use it for any wrong purpose. if any harm caused by this scripts , then only users is responsible for it.
+
+# Installation 
+> git clone https://github.com/veer1024/LAN-VPN-WEB.git
+
+> cd LAN-VPN-WEB/scripts/
+
+> pip3 install -r requirements.txt
+
+
 # Mac Proxy Tool
 ## **Description** 
 ### This Script is used to change the MAC Address of any Interface (wlan0, eth0 etc)
