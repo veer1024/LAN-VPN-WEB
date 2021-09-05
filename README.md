@@ -18,5 +18,30 @@
 ### This Script is used to perform man in the middle attack within the subnet , for this you need mac and IP addresses of both the machines for this you can use the below command 
 > arp -a
 
-### with this you can change 
+### with this you can change tcp data (messages) , which target machines are sharing between them. to launch the script 
+> python3 MITM.py
+
+### and follow the steps mentioned in the below video to launch the attack.
+
+
+# Domain Scanner 
+## **Description**
+### This script is used to do domain scan for Information Gathering and basic reccon . 
+### Provide the path of file containing list of all domains or subdomains , and it will provide the following details
+- Status code of all domains in form of table
+- all domains vulnerable for clickjacking
+- all domains vulnerable with cors
+- check for some basic techniques for 403 bypass against all 403 domains
+- check for domains having any header reflection
+
+### to launch the attack
+> python3 domain-scanner.py
+> # provide the path of the file containing domains and subdomains.
+
+![domain-scanner-1](https://user-images.githubusercontent.com/60743167/132132134-59d18cb9-be3a-4b48-8eef-c0e9c214e23a.png)
+
+![domain-scanner-2](https://user-images.githubusercontent.com/60743167/132132289-908ea233-851b-4eed-b424-c4f1c7c0c88c.png)
+
+
+
 
