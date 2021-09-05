@@ -38,6 +38,12 @@
 
 https://user-images.githubusercontent.com/60743167/132137208-55dfe382-10a5-4e30-b39a-27c13a96d5ba.mp4
 
+# TCP Session Hijacker or Telnet Session Hijacker
+## **Description**
+### This script is used to hijack telnet session between web server and client. this makes attacker to inject malicious code in the packets and to do remote code execution on Telnet server.
+> python3 TCPsessionhijack.py
+
+![tcp-session-hijacker](https://user-images.githubusercontent.com/60743167/132137629-afe305c3-7dab-4f37-8a2a-86ecbb17ff10.png)
 
 
 # Domain Scanner 
