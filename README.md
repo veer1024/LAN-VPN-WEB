@@ -65,5 +65,11 @@ https://user-images.githubusercontent.com/60743167/132137208-55dfe382-10a5-4e30-
 ![domain-scanner-2](https://user-images.githubusercontent.com/60743167/132132289-908ea233-851b-4eed-b424-c4f1c7c0c88c.png)
 
 
+# IP Locator Tool
+## **Description**
+### This script will take ipv4 or ipv6 address , and will provide information reagrding geographical location , network , organization , country of the device.
+> python3 ip_loc_tracker.py -i IP_ADDRESSS
+
+![Screenshot at 2021-09-05 00-43-34](https://user-images.githubusercontent.com/60743167/132137985-163dc5eb-4424-4954-bc52-f9139695aa3c.png)
 
 
