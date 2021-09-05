@@ -36,6 +36,10 @@
 ### and follow the steps mentioned in the below video to launch the attack.
 
 
+https://user-images.githubusercontent.com/60743167/132137208-55dfe382-10a5-4e30-b39a-27c13a96d5ba.mp4
+
+
+
 # Domain Scanner 
 ## **Description**
 ### This script is used to do domain scan for Information Gathering and basic reccon . 
