@@ -1,6 +1,6 @@
 # Network Penetration Toolkit
 ## Description
-### this repository contains , different python3 scripts , which can be used to do various attacks within the subnet or on a real world web server.it includes MITM, Telnet Session Hijacking and RCE , IP Location tracking , Domain Scanner or Web Server Scanner , Subnet or Network Mapper , Mac Proxy etc do not use it for any wrong purpose. if any harm caused by this scripts , then only users is responsible for it.
+### this repository contains , different python3 scripts , which can be used to do various attacks within the subnet or on a real world web server.it includes MITM (using arp poisoning ), Telnet Session Hijacking and RCE , IP Location tracking , Domain Scanner or Web Server Scanner , Subnet or Network Mapper , Mac Proxy etc do not use it for any wrong purpose. if any harm caused by this scripts , then only users is responsible for it.
 
 # Installation 
 > git clone https://github.com/veer1024/network-penetration-toolkit.git
