@@ -31,19 +31,25 @@ print(f"{bcolors.pink}Follow on: https://twitter.com/VirajVaishnav16{bcolors.RES
 def run():
      print(f"{bcolors.pink}what you want...{bcolors.RESET}")
      print(f"{bcolors.pink}1. check my mac.{bcolors.RESET}"+" "*18 + f"{bcolors.pink}2. change my mac.{bcolors.RESET}")
-     option = input(f"{bcolors.pink}select option (1 0r 2): {bcolors.RESET}")
+     option = input(f"{bcolors.pink}select option (1 0r 2 Or exit): {bcolors.RESET}")
      if option == "1":
         iface = input(f"{bcolors.pink}which network card interface you want to check: {bcolors.RESET}{bcolors.lightred}")
         print(f"{bcolors.RESET}")
         mc = mac_changer()
         mc.get_mac(iface)
-     else:
+     elif option == "2":
         iface = input(f"{bcolors.pink}which network card interface you want to check: {bcolors.RESET}{bcolors.lightred}")
         print(f"{bcolors.RESET}")
         new_mac = input(f"{bcolors.pink}new mac address you want to take: {bcolors.RESET}{bcolors.lightred}")
         print(f"{bcolors.RESET}")
         mc = mac_changer()
         mc.change_mac(iface,new_mac)
+     elif option == "exit":
+          print(f"{bcolors.pink} Bye!! {bcolors.RESET}")
+          sys.exit()
+     else:
+         print(f"{bcolors.pink} wrong option {bcolors.RESET}")
+         run()
 class mac_changer:
       def _init_(self):
          self.mac = ""
